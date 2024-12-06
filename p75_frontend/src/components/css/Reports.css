@@ -1,0 +1,76 @@
+.reports-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.item-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  text-align: justify !important;
+}
+
+.chart-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+
+.axis-label {
+  font-size: 12px;
+  fill: #666;
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: bold;
+  fill: #333;
+}
+
+.grid line {
+  stroke: #e0e0e0;
+  stroke-opacity: 0.7;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2;
+  transition: stroke-width 0.2s;
+}
+
+.line:hover {
+  stroke-width: 3;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
+
+.arc path {
+  transition: opacity 0.3s, stroke-width 0.3s;
+}
+
+.arc text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.legend text {
+  fill: #666;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.chart-caption {
+  font-size: 12px;
+  fill: #666;
+  width: 100%;
+}

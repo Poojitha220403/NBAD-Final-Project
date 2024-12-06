@@ -1,0 +1,72 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  padding: 1rem;
+}
+
+.user-info {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: justify !important;
+}
+
+.content-section {
+  line-height: 1.6;
+}
+
+.content-section h3,
+.content-section h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.content-section p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.content-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.content-section li {
+  margin-bottom: 0.5rem;
+}
+
+.content-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content-section a:hover {
+  text-decoration: underline;
+}

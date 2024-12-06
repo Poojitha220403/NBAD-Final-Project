@@ -1,0 +1,154 @@
+.admin-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.admin-container h2, .admin-container h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.editor-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.editor {
+  padding: 1rem;
+  min-height: 200px;
+}
+
+.toolbar {
+  border-bottom: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  margin-right: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+
+.data-tables {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+td button {
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+td button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+td button:first-child:hover {
+  background-color: #218838;
+}
+
+td button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+td button:last-child:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 1rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  td button {
+    padding: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
